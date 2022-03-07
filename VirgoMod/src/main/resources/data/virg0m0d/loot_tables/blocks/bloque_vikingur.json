@@ -1,0 +1,14 @@
+{
+	"type" : "mincraft:block",
+	"pools" : [
+		{
+			"rolls": 1.0, 
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "virg0m0d:bloque_vikingur"
+				}
+			]
+		}
+	]
+}

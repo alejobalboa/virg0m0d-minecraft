@@ -1,5 +1,6 @@
 package com.groxhomer.virg0m0d;
 
+import com.groxhomer.virg0m0d.init.BlockInit;
 import com.groxhomer.virg0m0d.init.ItemInit;
 
 import net.minecraft.world.item.CreativeModeTab;
@@ -29,6 +30,7 @@ public class virg0m0d {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		
 		ItemInit.ITEMS.register(bus);
+		BlockInit.BLOCKS.register(bus);
 		
 		MinecraftForge.EVENT_BUS.register(this);
 	}
